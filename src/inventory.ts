@@ -1,4 +1,4 @@
-import { Panels } from "./products";
+import { Products } from "./products";
 
 export interface InventoryItem {
     product: string;

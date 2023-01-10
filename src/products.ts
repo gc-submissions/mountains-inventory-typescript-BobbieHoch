@@ -1,8 +1,6 @@
 interface Products{
     name: string;
     price: number;
-
-
 }
 const product: Products[] = [
         { name: "motor", price: 10.00 },
@@ -18,5 +16,4 @@ function calcAverageProductPrice(array: Products[]): number {
     return result / array.length
 }
 console.log(calcAverageProductPrice(product));
-
 export { calcAverageProductPrice, Products }

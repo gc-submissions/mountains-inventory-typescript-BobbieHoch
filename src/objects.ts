@@ -1,0 +1,6 @@
+
+
+
+let person = {
+    name: "Robert",
+}
